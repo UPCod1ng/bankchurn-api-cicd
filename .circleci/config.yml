@@ -30,6 +30,7 @@ jobs:
           command: |
             cd bankchurn-api 
             railway up --service=fearless-courtesy
+
             railway up --detach
 
 
